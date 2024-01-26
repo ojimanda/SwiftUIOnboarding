@@ -12,6 +12,7 @@
 		747E36842B6368C000B965B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747E36832B6368C000B965B2 /* Assets.xcassets */; };
 		747E36872B6368C000B965B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747E36862B6368C000B965B2 /* Preview Assets.xcassets */; };
 		747E368F2B6368FD00B965B2 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E368E2B6368FD00B965B2 /* OnboardingModel.swift */; };
+		747E36962B637A2600B965B2 /* BackgroundImageOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E36952B637A2600B965B2 /* BackgroundImageOnboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		747E36832B6368C000B965B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747E36862B6368C000B965B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		747E368E2B6368FD00B965B2 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		747E36952B637A2600B965B2 /* BackgroundImageOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageOnboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		747E36932B63697800B965B2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				747E36952B637A2600B965B2 /* BackgroundImageOnboarding.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747E36962B637A2600B965B2 /* BackgroundImageOnboarding.swift in Sources */,
 				747E36822B6368BD00B965B2 /* OnboardingView.swift in Sources */,
 				747E36802B6368BD00B965B2 /* AssignmentOnboardingApp.swift in Sources */,
 				747E368F2B6368FD00B965B2 /* OnboardingModel.swift in Sources */,
