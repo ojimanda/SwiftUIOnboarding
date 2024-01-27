@@ -35,6 +35,8 @@ struct BackgroundImageOnboarding: View {
                     .tag(data.tag)
             }
         }
+        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+        .ignoresSafeArea()
     }
 }
 

@@ -12,10 +12,9 @@ struct OnboardingView: View {
     @State private var selectionTab: Int = 0
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             BackgroundImageOnboarding(selectionTab: $selectionTab)
-            .tabViewStyle(PageTabViewStyle())
-            .ignoresSafeArea()
+            DotIndocatorView(counterIndicator: OnboardingModel.mockData.count, tag: $selectionTab, color: .white, secondaryColor: .white.opacity(0.5)) 
         }
     }
 }
